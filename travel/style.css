@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+/* Color palete
+#3B6836-dark green
+#38962A-middlegreen
+#34B52D-green
+#60BA2C-light green
+#99D378-lightlightgreen
+#C9E440-yellowgreen
+#D4E966-yellowyellowgreen
+*/
+
+
+body{ 
+  background:#60BA2C ;
+  font-size: 100%;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+body{
+  font-family: 'Libre Baskerville', serif;
+}
+
+header,footer{
+  background: #38962A
+
+}
+h1{
+   background-color:#3B6836;
+   color:rgb(243, 238, 232);
+   font-size: 200;
+   padding-left:1em
+}
+
+.must-see{
+  background-color:#3B6836;
+  color:rgb(243, 238, 232);
+ }
+ 
+
+a{
+  background-color:#38962A;
+  color:rgb(243, 238, 232);
+  padding:10px;
+  margin: 10px;
+  display:inline-block;
+  border: 1px solid black;
+}
+a:hover{
+  color:#C9E440;
+}
+
+
+.reco{
+  background:#99D378;
+}
+
+
+.recomendations{
+  background-color:#3B6836;
+  font-size: 200%; 
+  padding-left: .5em;
+}
+
+
+.trip{
+  background:#99D378;
+}
+
+h2{
+  background: #3B6836;
+  padding-left: .5em;
+}
+
+.tour{
+  background: #99D378;
+}
+
+.learn{
+  background: #99D378;
+  padding-left:  1em;
+}
+
+footer p{ 
+  color: white;
+  font-size: 80%;
+}
+
+
+
+
+
