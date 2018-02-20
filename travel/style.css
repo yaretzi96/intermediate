@@ -9,32 +9,71 @@
 #D4E966-yellowyellowgreen
 */
 
+html{
+  font-size: .625rem;
+}
 
 body{ 
   background:#60BA2C ;
-  font-size: 100%;
-  padding-left: 1em;
-  padding-right: 1em;
+  font-size: 2rem;
 }
+
+
 
 body{
   font-family: 'Libre Baskerville', serif;
 }
 
-header,footer{
-  background: #38962A
 
+
+
+header,footer{
+  background: #38962A;
+  box-sizing: border-box;
+  border-radius: 15px
+}
+
+.background{
+width:98vw;
+height: 40vh;
+
+ background-image:linear-gradient(rgba(70, 75, 3, 0.774), transparent),
+ url(https://yaretzi96.github.io/destination/projects2/images/puertoescondido1.jpg);
+ 
+  background-repeat: no-repeat;
+  background-position: top top;
+  background-attachment: fixed;
+  background-size:cover;
+  color: whitesmoke;
+
+  border-radius: 25px;
 }
 h1{
    background-color:#3B6836;
    color:rgb(243, 238, 232);
    font-size: 200;
-   padding-left:1em
+   border-radius: 15px;
+}
+
+.title{
+  text-align: center;
+  font-size: 3rem;
+  background-color: transparent;
+  border: px solid white;
+}
+.intro{
+  text-align: left;
+
+}
+
+.destination{
+  text-align: center;
 }
 
 .must-see{
   background-color:#3B6836;
   color:rgb(243, 238, 232);
+  border-radius: 15px;
  }
  
 
@@ -44,45 +83,69 @@ a{
   padding:10px;
   margin: 10px;
   display:inline-block;
-  border: 1px solid black;
+  border-radius: 15px;
 }
 a:hover{
   color:#C9E440;
 }
 
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.box{
+  display: inline-block;
+  width: 50%;
+  height: 65%;
+  border-radius: 15px;
+  box-sizing: border-box;
+  display: block;
+}
 
 .reco{
   background:#99D378;
+  border-radius: 15px;
 }
 
-
-.recomendations{
-  background-color:#3B6836;
-  font-size: 200%; 
-  padding-left: .5em;
-}
 
 
 .trip{
   background:#99D378;
+  border-radius: 15px;
 }
 
 h2{
   background: #3B6836;
   padding-left: .5em;
+  border-radius: 10px;
 }
 
 .tour{
   background: #99D378;
+  border-radius: 15px;
 }
 
 .learn{
   background: #99D378;
+  border-radius: 15px
 }
 
 footer p{ 
   color: white;
-  font-size: 80%;
+  font-size: 1rem;
+  border-radius: 15px;
+}
+
+.fab{
+  display:inline-block;
+  font-size: inherit;
+  height: .5em;
+  width: .5em;
+  overflow: visible;
+  text-rendering: auto;
 }
 
 
