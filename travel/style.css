@@ -33,7 +33,7 @@ body{
 
 
 .textwrap{
-  maz-width:950px;
+  max-width:950px;
   margin: 0 auto;
   padding: 50px 25px;
   overlflow; hidden;
