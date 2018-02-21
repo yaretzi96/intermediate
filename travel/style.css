@@ -96,15 +96,10 @@ a{
   display:inline-block;
   border-radius: 15px;
 }
+
+
 a:hover{
   color:#C9E440;
-}
-
-html {
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
 }
 
 .box{
