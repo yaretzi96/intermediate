@@ -25,7 +25,12 @@ body{
 }
 
 
-
+.textwrap{
+  maz-width:950px;
+  margin: 0 auto;
+  padding: 50px 25px;
+  overlflow; hidden;
+}
 
 header,footer{
   background: #38962A;
